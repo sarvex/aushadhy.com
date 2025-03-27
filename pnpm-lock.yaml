@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@modular-forms/qwik':
     specifier: 0.29.1
-    version: 0.29.1(@builder.io/qwik-city@1.8.0)(@builder.io/qwik@1.7.3)(typescript@5.4.5)
+    version: 0.29.1(@builder.io/qwik-city@1.8.0)(@builder.io/qwik@1.7.3)(typescript@5.8.2)
   '@qwikest/icons':
     specifier: 0.0.13
     version: 0.0.13(@builder.io/qwik@1.7.3)
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 5.8.2
     version: 5.8.2
   undici:
-    specifier: 6.19.2
-    version: 6.19.2
+    specifier: 6.21.1
+    version: 6.21.1
   vercel:
     specifier: 34.2.7
     version: 34.2.7
@@ -170,7 +170,7 @@ packages:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 6.19.2
+      undici: 6.21.1
       vfile: 6.0.1
       vite: 5.2.12(@types/node@20.16.1)
       vite-imagetools: 7.0.4
@@ -1011,7 +1011,7 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.8.0)(@builder.io/qwik@1.7.3)(typescript@5.4.5):
+  /@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.8.0)(@builder.io/qwik@1.7.3)(typescript@5.8.2):
     resolution: {integrity: sha512-xJb8wZXHEL0ioM5TlDpHUrXE4VKDf5OZbSoMtzmew9aHUGMDfsIGzSim408LaHHXa233YB76RhQZZAmO5Pgitg==}
     peerDependencies:
       '@builder.io/qwik': ^1.9.0 || ^2.0.0
@@ -1020,7 +1020,7 @@ packages:
       '@builder.io/qwik': 1.7.3(@types/node@20.16.1)
       '@builder.io/qwik-city': 1.8.0(@types/node@20.16.1)
       decode-formdata: 0.8.0
-      valibot: 1.0.0(typescript@5.4.5)
+      valibot: 1.0.0(typescript@5.8.2)
     transitivePeerDependencies:
       - typescript
     dev: false
@@ -6664,8 +6664,8 @@ packages:
       '@fastify/busboy': 2.0.0
     dev: true
 
-  /undici@6.19.2:
-    resolution: {integrity: sha512-JfjKqIauur3Q6biAtHJ564e3bWa8VvT+7cSiOJHFbX4Erv6CLGDpg8z+Fmg/1OI/47RA+GI2QZaF48SSaLvyBA==}
+  /undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
 
   /unified@11.0.4:
@@ -6788,7 +6788,7 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: true
 
-  /valibot@1.0.0(typescript@5.4.5):
+  /valibot@1.0.0(typescript@5.8.2):
     resolution: {integrity: sha512-1Hc0ihzWxBar6NGeZv7fPLY0QuxFMyxwYR2sF1Blu7Wq7EnremwY2W02tit2ij2VJT8HcSkHAQqmFfl77f73Yw==}
     peerDependencies:
       typescript: '>=5'
@@ -6796,7 +6796,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      typescript: 5.4.5
+      typescript: 5.8.2
     dev: false
 
   /vercel@34.2.7:
